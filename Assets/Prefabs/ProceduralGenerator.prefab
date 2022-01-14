@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4629857060802828711
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4629857060802828709}
+  - component: {fileID: 4629857060802828710}
+  - component: {fileID: 4629857060802828708}
+  m_Layer: 0
+  m_Name: ProceduralGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4629857060802828709
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4629857060802828711}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.6380215, y: 33.1, z: 40.371468}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4629857060802828710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4629857060802828711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 867f055c1e4355140a050df75c7fa7af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startRoomPrefab: {fileID: 2187031443041251339, guid: ef5c1802e36ddc24097efa6579963a62, type: 3}
+  endRoomPrefab: {fileID: 2293544881191112415, guid: c8a10181986ffd54bae5dd723740ce59, type: 3}
+  roomPrefabs:
+  - {fileID: 2421322488634578478, guid: 6b22fa00c4ae3b748b377b4fce2d7709, type: 3}
+  - {fileID: 1461885405319783980, guid: 4b1e8690fe85f744d9176ec6f0bdd085, type: 3}
+  - {fileID: 854404459720826807, guid: 0f150a60e69ddea41addee7cf2e5edc0, type: 3}
+  - {fileID: 6344626748911150015, guid: 809a41af7ce2b9845b8014e507a85132, type: 3}
+  iterationRange: {x: 20, y: 20}
+  roomCount: 0
+  roomLayerMask:
+    serializedVersion: 2
+    m_Bits: 8192
+  eleDoor: {fileID: 0}
+  newBool: 0
+  testAI: {fileID: 2228919737259415731, guid: c2b9ee218a1bb794693abf6d18b82afe, type: 3}
+  zombie: {fileID: 763481728711523458, guid: efb2575453c212e4ea1f8affc2057608, type: 3}
+--- !u!114 &4629857060802828708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4629857060802828711}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9009478ae7c65104c987438a79b1874c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startRoomPrefab: {fileID: 1627959354927739212, guid: a04e7627a9474f04488e744e23da1a01, type: 3}
+  endRoomPrefab: {fileID: 2293544881191112415, guid: c8a10181986ffd54bae5dd723740ce59, type: 3}
+  roomPrefabs:
+  - {fileID: 1461885405319783980, guid: 4b1e8690fe85f744d9176ec6f0bdd085, type: 3}
+  - {fileID: 2421322488634578478, guid: 6b22fa00c4ae3b748b377b4fce2d7709, type: 3}
+  - {fileID: 854404459720826807, guid: 0f150a60e69ddea41addee7cf2e5edc0, type: 3}
+  iterationRange: {x: 20, y: 20}
+  roomCount: 0
+  roomLayerMask:
+    serializedVersion: 2
+    m_Bits: 8192

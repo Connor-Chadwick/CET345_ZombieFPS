@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - zombie
+  - FxTemporaire
+  - SWAT
+  - Orientation
+  - TTUI
+  - PlayerCollider
+  - zombie_leg
+  - LeftIK
+  - RightIK
+  - Generator
+  - Door
+  - UI
+  - ZombieHand
+  - Scrap
+  - ElevatorDoor
+  - MedKit
+  - Cell
+  - EndGame
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Weapon
+  - Ground
+  - Player
+  - Scope
+  - FloorWeapon
+  - Room
+  - Zombie
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

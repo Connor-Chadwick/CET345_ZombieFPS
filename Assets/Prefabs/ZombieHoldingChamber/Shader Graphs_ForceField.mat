@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader Graphs_ForceField
+  m_Shader: {fileID: -6465566751694194690, guid: 3499d4f126f9a004ca4d87eea38cfd84, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 1
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_2D8C27E8:
+        m_Texture: {fileID: 2800000, guid: a0a62e17505b6774389653a85d42c320, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_4B999DF5: 0.2
+    - Vector1_D483C898: 0.6
+    m_Colors:
+    - Color_6BD33974: {r: 0, g: 1.035294, b: 2, a: 0}
+  m_BuildTextureStacks: []
